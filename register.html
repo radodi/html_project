@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Котешки уеб</title>
+	<link rel="stylesheet" type="text/css" href="css/desktop.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<h1><img src="img/logo.gif" alt="Лого - Котешки уеб"></h1>
+			<h1 class="logo">Котешки уеб</h1>
+			<ul>
+				<li><a href="index.html">Начало</a></li>
+				<li><a href="cats.html">Породи</a></li>
+				<li><a href="register.html">Регистрация</a></li>
+			</ul>
+		</div>
+		<div class="main">
+		<h3>Регистрация</h3>
+		<form action="mailto:r1921d@gmail.com" method="post">
+		<div>
+			<label for="name">Потребителско Име:</label>
+		</div>
+		<div>
+			<input type="text" name="name" id="name">
+		</div>
+		<div>
+			<label for="pass">Парола:</label>
+		</div>
+		<div>
+			<input type="password" name="pass" id="pass">
+		</div>
+		<div>
+			<label for="mail">e-Mail:</label>
+		</div>
+		<div>
+			<input type="text" name="mail" id="mail">
+		</div>
+		<div>Изберете Град:<br>
+			<select name="city">
+				<option value="Vratsa">Враца</option>
+				<option value="Vidin">Видин</option>
+				<option value="Pleven">Плевен</option>
+			</select>
+		</div>
+		<div>
+		Порода:<br>
+		<input type="radio" name="breed" value="sphinks" id="sphinks"><label for="sphinks">Канадски сфинкс</label>
+		<input type="radio" name="breed" value="manchkin" id="manchkin"><label for="manchkin">Манчкин</label>
+		<input type="radio" name="breed" value="siamese" id="siamese"><label for="siamese">Сиамската котка</label>
+		</div>
+		<div>
+			<textarea name="comments" placeholder="Допълнителни коментари..." cols="50"></textarea>
+		</div>
+		<div>
+			<label for="terms">Съгласен съм с условията за ползване на сайта.</label>
+			<input type="checkbox" name="terms" id="terms" value="agree">
+		</div>
+		<div>
+			<input type="submit" name="submit" value="Изпрати">
+		</div>
+		</form>
+		</div>
+		<div class="footer">
+			<ul>
+				<li><a href="index.html">Начало</a></li>
+				<li><a href="cats.html">Породи</a></li>
+				<li><a href="register.html">Регистрация</a></li>
+			</ul>
+			<h1><img src="img/logo_footer.gif" alt="Лого - Котешки уеб"></h1>
+			<h1 class="logo">&copy; 2016 - Котешки уеб</h1>	
+		</div>
+	</div>
+</body>
+</html>
